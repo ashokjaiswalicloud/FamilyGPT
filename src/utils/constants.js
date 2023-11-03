@@ -1,0 +1,9 @@
+export const helpersDocName = "helpers";
+export const ridersDocName = "riders";
+export const userDocName = "users";
+export const maidDocName = "maids";
+export const receiptDocName = "receipts";
+export const countryDocName = "country";
+export const questionsDocName = "questions";
+export const chatDocName = "chat";
+export const filesDocName = "files";

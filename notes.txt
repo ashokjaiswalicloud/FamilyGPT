@@ -1,0 +1,5 @@
+# Example of this skeleton is
+https://mui.com/joy-ui/getting-started/templates/files/
+
+# Header and footer
+https://mui.com/joy-ui/main-features/color-inversion/#header
