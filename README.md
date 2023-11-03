@@ -1,38 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+FamilyGPT - Telegram Family Bot
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Money Bunny is a Telegram bot designed to enhance family communication and organization. It provides a suite of features that facilitate task management, grocery list creation, expense tracking, and more. The bot leverages various AI tools to enrich its functionality, including text-to-image conversion, image-to-text extraction, voice-to-text transcription, and text-to-voice synthesis. With the aid of Large Language Models (LLMs), Money Bunny can interpret user requests and transform them into structured JSON data for tasks, expenses, recipes, and more.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The bot also integrates several external APIs, such as the OpenAI Text to Image API for creating recipe images, the Google Translate API for text translation, and Google Voice AI APIs for voice-to-text conversion. In addition to AI capabilities, Money Bunny utilizes Telegram APIs to construct different menus and interfaces, making it user-friendly and interactive. To store user data securely, the bot relies on Firebase database, ensuring privacy and data integrity.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For deployment, Money Bunny utilizes Next.js serverless deployment and microservices architecture to ensure efficiency and scalability.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Key Features
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Task Management: Users can easily add, manage, and track tasks, keeping the family organized and informed.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+2. Grocery Lists: Create and update grocery lists that all family members can access, streamlining shopping trips.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Expense Tracking: Log expenses and keep a record of spending to maintain a clear view of your financial activities.
 
-## Learn More
+4. AI Integration: Money Bunny integrates AI tools like text-to-image, image-to-text, voice-to-text, and text-to-voice for enhanced user experience and functionality.
 
-To learn more about Next.js, take a look at the following resources:
+5. Natural Language Processing (NLP): Leveraging LLMs, Money Bunny converts user requests into structured JSON data for various purposes, such as recipes, expenses, and tasks.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+6. Interactive Menus: Utilizing Telegram APIs, the bot offers user-friendly menus and interfaces for easy navigation.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+7. Secure Data Storage: Firebase database ensures the security and integrity of user data.
 
-## Deploy on Vercel
+8. Efficient Deployment: Money Bunny uses Next.js serverless deployment and a microservices architecture for scalability and optimal performance.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Prerequisites: Ensure you have Node.js, Firebase, and other required dependencies installed.
+
+2. Configuration: Set up your Firebase project and Telegram API credentials.
+
+3. Installation: Clone the repository and run `npm install` to install the necessary packages.
+
+4. Deployment: Deploy the bot using Next.js serverless deployment or your preferred method.
+
+5. AI Integration: Configure your AI tools and APIs as per the documentation provided.
+
+6. Usage Guide: Refer to the documentation in the `docs` directory for detailed instructions on how to use and customize Money Bunny.
+
+## Contributing
+
+We welcome contributions and feature suggestions. Feel free to open issues, submit pull requests, or participate in the development of Money Bunny.
+
+<img width="366" alt="Screenshot 2023-11-03 at 12 29 23 PM" src="https://github.com/ashokjaiswalicloud/moneybunny/assets/149745978/fac701c5-b63a-4025-aca1-1a65568f11e4">
+<img width="367" alt="Screenshot 2023-11-03 at 12 29 30 PM" src="https://github.com/ashokjaiswalicloud/moneybunny/assets/149745978/e6560a18-dc2d-4009-82a2-ffe0a2cb1014">
+<img width="367" alt="Screenshot 2023-11-03 at 12 29 36 PM" src="https://github.com/ashokjaiswalicloud/moneybunny/assets/149745978/aba800ac-3a8e-4544-a07e-e2ed104ff370">
+<img width="368" alt="Screenshot 2023-11-03 at 12 29 50 PM" src="https://github.com/ashokjaiswalicloud/moneybunny/assets/149745978/d10ae8ae-79c5-42e1-96bb-b26319c7e336">
+<img width="367" alt="Screenshot 2023-11-03 at 12 29 57 PM" src="https://github.com/ashokjaiswalicloud/moneybunny/assets/149745978/74b3b1fd-f9c0-47af-b4af-c94e0d71143b">
