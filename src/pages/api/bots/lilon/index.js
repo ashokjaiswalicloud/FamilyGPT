@@ -7,7 +7,7 @@ import axios from "axios";
 import { FamilyRestroomOutlined } from "@mui/icons-material";
 
 const { Configuration, OpenAIApi } = require("openai");
-const api_key = "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"; //process.env.OPENAI_API_KEY;
+const api_key = process.env.OPENAI_API_KEY;
 const configuration = new Configuration({
   apiKey: api_key,
 });
